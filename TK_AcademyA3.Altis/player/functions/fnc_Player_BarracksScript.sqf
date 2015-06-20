@@ -1,0 +1,1 @@
+_tmp = [] execVM "barracks\showModal.sqf";
