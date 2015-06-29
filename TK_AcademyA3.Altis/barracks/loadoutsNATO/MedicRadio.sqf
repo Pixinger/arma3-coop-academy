@@ -49,7 +49,7 @@ _result = [
 	
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam_shortsleeve", 
+		"U_B_CombatUniform_mcam", 
 		/* Uniform-Weapons */
 		[], 
 		/* Uniform-Magazines */

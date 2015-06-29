@@ -4,10 +4,10 @@ _result = [
 	"", //G_Tactical_Clear
 	
 	/* Headgear */
-	"H_MilCap_dgtl",
+	"H_HelmetB",
 	
 	/* Binoculars */
-	"LaserDesignator",
+	"Binocular",
 	
 	/* Nightvision */
 	"NVGoggles",
@@ -22,11 +22,11 @@ _result = [
 	
 	/* Primary Weapon */
 	[
-		"srifle_DMR_03_DMS_F",
+		"arifle_Mk20_MRCO_pointer_F",
 		/* Primary weapon Magazine */
-		"20Rnd_762x51_Mag",
+		"30Rnd_556x45_Stanag",
 		/* Primary Weapon Items */
-		["bipod_03_F_blk"]
+		["muzzle_snds_M"]
 	],
 	
 	/* Secondary Weapon */
@@ -49,7 +49,7 @@ _result = [
 	
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam_shortsleeve", 
+		"U_B_CombatUniform_mcam", 
 		/* Uniform-Weapons */
 		[], 
 		/* Uniform-Magazines */
@@ -62,16 +62,17 @@ _result = [
 		
 	/* Vest */
 	[
-		"V_Chestrig_oli",
+		"V_PlateCarrier2_rgr",
 		/* Vest-Weapons */
 		[
-			"SmokeShell","SmokeShell",
-			"SmokeShellRed","SmokeShellRed",
-			"SmokeShellGreen","SmokeShellGreen"
+			"SmokeShell","SmokeShell","SmokeShell",
+			"SmokeShellPurple","SmokeShellPurple","SmokeShellPurple","SmokeShellPurple","SmokeShellPurple",
+			"SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"
 		], 
 		/* Vest-Magazines */
 		[
-			"20Rnd_762x51_Mag","20Rnd_762x51_Mag"
+			"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag",
+			"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag"
 		],
 		/* Vest-Items */
 		[
@@ -84,14 +85,10 @@ _result = [
 		/* Backpack-Weapons */
 		[], 
 		/* Backpack-Magazines */
-		[
-			"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag"
-		],
+		[],
 		/* Backpack-Items */
-		[			
-			"SmokeShell","SmokeShell",
-			"SmokeShellRed","SmokeShellRed",
-			"SmokeShellGreen","SmokeShellGreen"			
+		[
+			"Medikit","FirstAidKit","FirstAidKit"
 		]
 	],
 	

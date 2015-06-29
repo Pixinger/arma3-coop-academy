@@ -1,7 +1,7 @@
 private["_result"];
 _result = [
 	/* Goggles */
-	"",
+	"", //G_Tactical_Clear
 	
 	/* Headgear */
 	"H_HelmetB",
@@ -17,16 +17,16 @@ _result = [
 		"ItemMap",
 		"ItemWatch",
 		"ItemCompass",
-		"ItemGps"
+		"B_UavTerminal"
 	],
 	
 	/* Primary Weapon */
 	[
-		"arifle_Mk20C_ACO_pointer_F",
+		"arifle_Mk20_MRCO_pointer_F",
 		/* Primary weapon Magazine */
 		"30Rnd_556x45_Stanag",
 		/* Primary Weapon Items */
-		["muzzle_snds_M","optic_MRCO"]
+		["muzzle_snds_M"]
 	],
 	
 	/* Secondary Weapon */
@@ -49,31 +49,28 @@ _result = [
 	
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam_shortsleeve", 
+		"U_B_CombatUniform_mcam", 
 		/* Uniform-Weapons */
 		[], 
 		/* Uniform-Magazines */
-		[
-		],
+		[],
 		/* Uniform-Items */
 		[
 			"ItemRadio","FirstAidKit","FirstAidKit"
 		]
 	],
-	
+		
 	/* Vest */
 	[
 		"V_PlateCarrier2_rgr",
 		/* Vest-Weapons */
 		[
-			"SmokeShell","SmokeShell",
-			"SmokeShellPurple","SmokeShellPurple",
+			"SmokeShell","SmokeShell","SmokeShell",
 			"SmokeShellGreen","SmokeShellGreen"
 		], 
 		/* Vest-Magazines */
 		[
-			"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag",
-			"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag"
+			"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"
 		],
 		/* Vest-Items */
 		[
@@ -82,16 +79,13 @@ _result = [
 	
 	/* Backpack */
 	[
-		"B_Carryall_oli_Exp",
+		"B_UAV_01_backpack_F",
 		/* Backpack-Weapons */
-		[
-		], 
+		[], 
 		/* Backpack-Magazines */
-		[
-		],
+		[],
 		/* Backpack-Items */
-		[
-			"ToolKit","MineDetector"
+		[			
 		]
 	],
 	
