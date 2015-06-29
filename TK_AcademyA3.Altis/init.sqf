@@ -44,6 +44,7 @@ player setvariable ["BIS_nocoreconversations",true];
 
 call compile preprocessFileLineNumbers "admin\init.sqf";
 call compile preprocessFileLineNumbers "barracks\init.sqf";
+call compile preprocessFileLineNumbers "garage\init.sqf";
 call compile preprocessFileLineNumbers "player\init.sqf";
 
 /* Camera deaktivieren */

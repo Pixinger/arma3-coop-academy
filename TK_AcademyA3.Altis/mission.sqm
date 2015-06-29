@@ -50,7 +50,7 @@ class Mission
 	randomSeed=14739900;
 	class Intel
 	{
-		briefingName="[TK]Academy A3 V0.01";
+		briefingName="[TK]Academy A3 V0.02";
 		overviewText="www.teamkommando.de";
 		timeOfChanges=28800;
 		startWeather=0;
