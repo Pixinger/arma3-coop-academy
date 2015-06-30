@@ -18,7 +18,6 @@ class Mission
 		"A3_Structures_F_Walls",
 		"A3_Data_F_Curator_Characters",
 		"A3_Structures_F_Mil_Shelters",
-		"A3_Weapons_F_Ammoboxes",
 		"A3_Weapons_F_Beta_Ammoboxes",
 		"A3_Weapons_F_Bootcamp_Ammoboxes",
 		"A3_Structures_F_Mil_Fortification",
@@ -26,7 +25,6 @@ class Mission
 		"A3_Modules_F_Curator_Curator",
 		"A3_Static_F_Mark_Designator_01",
 		"A3_Static_F_Gamma",
-		"a3_static_f",
 		"A3_Static_F_Gamma_AA",
 		"A3_Static_F_Gamma_AT",
 		"A3_Static_F_Beta_Mortar_01",
@@ -50,7 +48,7 @@ class Mission
 	randomSeed=14739900;
 	class Intel
 	{
-		briefingName="[TK]Academy A3 V0.02";
+		briefingName="[TK]Academy A3 V0.03";
 		overviewText="www.teamkommando.de";
 		timeOfChanges=28800;
 		startWeather=0;
@@ -894,6 +892,7 @@ class Mission
 					leader=1;
 					lock="UNLOCKED";
 					skill=0.60000002;
+					text="StaticCuratorModule";
 				};
 			};
 		};

@@ -1,5 +1,5 @@
 if (isNil "adminTfarZeusFix_enabled") then { adminTfarZeusFix_enabled = false;};
-
+ 
 if (adminTfarZeusFix_enabled) then
 {
 	adminTfarZeusFix_enabled = false;
@@ -34,27 +34,26 @@ else
 				// Player an die ZeusCamera attachen
 				player setCaptive 3;
 				player allowDamage false;
-				player enableSimulationGlobal false;
-				player hideObjectGlobal true;
+				[[player, true], "fnc_Admin_ToggleZeusFixHelper", false] call BIS_fnc_MP;
 
 				// Überwachen
 				while { (!(isNull curatorCamera)) && (adminTfarZeusFix_enabled) } do
-				{
+				{				
 					player setPos (getPos curatorCamera);
+					player setDir (getDir curatorCamera);
 					Sleep 0.5;
 				};
 
 				// Spieler wieder zurück setzen
-				player enableSimulationGlobal true;
 				player setvelocity [0,0,0];
 				player setPos _playerPosition;
 				player setDir _playerDirection;
 				player setvelocity [0,0,0];
+				[[player, false], "fnc_Admin_ToggleZeusFixHelper", false] call BIS_fnc_MP;
 				Sleep 0.5;
 				player allowDamage true;
 				player setDamage 0;
 				player setCaptive _captiveNum;
-				player hideObjectGlobal false;
 				
 				player globalChat "Zeusfix: Detached from camera";			
 			};

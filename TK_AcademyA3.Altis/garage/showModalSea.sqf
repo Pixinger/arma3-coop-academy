@@ -5,7 +5,7 @@ _building = _this select 0;
 /* Dialog erstellen*/
 #include "defines.hpp";
 createDialog "PIXLOGISTIC_DIALOG_GARAGE"; 	
-
+ 
 private["_loadouts"];
 _loadouts = [
 	["BLU - Speedboat Minigun", "B_Boat_Armed_01_minigun_F"],
@@ -47,8 +47,11 @@ if (pixLogisticDialogGarage_ButtonOK == 1) then
 	_classname = (_loadouts select pixLogisticDialogGarage_Selection) select 1;
 
 	/* LoadOut zuweisen */
+	private["_position"];
+	_position = (position player) findEmptyPosition [0, 100, _classname];	
 	private["_vehicle"];
-	_vehicle = _classname createVehicle position player;
+	_vehicle = _classname createVehicle _position;
+	_vehicle setDir (getDir player);
 	player moveInDriver _vehicle;
 	player reveal _vehicle;
 };

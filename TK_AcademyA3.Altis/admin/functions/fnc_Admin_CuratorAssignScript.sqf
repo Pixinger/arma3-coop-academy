@@ -4,7 +4,7 @@ if (isServer) then
 	if (isDedicated) then { _target = _this select 0; } else	{ _target = cursorTarget; };
 
 	unassignCurator DynamicCuratorModule;
-	_target assignCurator DynamicCuratorModule;
+	_target assignCurator DynamicCuratorModule; 
 }
 else
 {
@@ -19,5 +19,5 @@ else
 	//    Group - function will be executed only on clients where the player is in the specified group 
 	// 4. IsPersistent
 	// 5. IsCall 
-	[[cursorTarget], "fnc_Admin_CuratorAssign", false] call BIS_fnc_MP;
+	[[cursorTarget], "fnc_Admin_CuratorAssignScript", false] call BIS_fnc_MP;
 };

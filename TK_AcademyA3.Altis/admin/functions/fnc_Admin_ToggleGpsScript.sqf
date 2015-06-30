@@ -74,15 +74,15 @@ if (hasInterface) then
 					private["_unit"];
 					_unit = _units select _i;
 					_markerName setMarkerPosLocal (getPos _unit);
-					if (_unit isKindOf pixTown_ConfigBaseClassRed) then 
+					if (_unit isKindOf "SoldierGB") then 
 					{ 
 						_markerName setMarkerColorLocal "ColorRed";//ColorOrange
 					};
-					if (_unit isKindOf pixTown_ConfigBaseClassBlu) then 
+					if (_unit isKindOf "SoldierEB") then 
 					{ 
 						_markerName setMarkerColorLocal "ColorBlue";
 					};
-					if (_unit isKindOf pixTown_ConfigBaseClassCiv) then 
+					if (_unit isKindOf "Civilian_F") then 
 					{ 
 						_markerName setMarkerColorLocal "ColorGreen";
 					};
