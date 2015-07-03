@@ -6,3 +6,5 @@ fnc_Player_GarageAirScript = compile preprocessFileLineNumbers "player\functions
 fnc_Player_GarageSeaScript = compile preprocessFileLineNumbers "player\functions\fnc_Player_GarageSeaScript.sqf";
 fnc_Player_GarageTrackedScript = compile preprocessFileLineNumbers "player\functions\fnc_Player_GarageTrackedScript.sqf";
 fnc_Player_GarageWheeledScript = compile preprocessFileLineNumbers "player\functions\fnc_Player_GarageWheeledScript.sqf";
+fnc_Player_NameTags = compile preprocessFileLineNumbers "player\functions\fnc_Player_NameTags.sqf";
+fnc_Player_NameTagsInit = compile preprocessFileLineNumbers "player\functions\fnc_Player_NameTagsInit.sqf";

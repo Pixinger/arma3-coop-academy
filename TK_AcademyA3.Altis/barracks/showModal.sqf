@@ -33,7 +33,8 @@ _loadouts = [
 	["Helipilot", "HeliPilot.sqf"],
 	["Helipilot (Radio)", "HeliPilotRadio.sqf"],
 	["HALO", "Halo.sqf"],
-	["HALO (AT)", "HaloTitanAT.sqf"]
+	["HALO (AT)", "HaloTitanAT.sqf"],
+	["Unbewaffnet (Aufklärer)", "UnarmedScout.sqf"]
 	//["Automatikschütze","US_Autorifleman.sqf"],
 	//["Sanitäter (Aufklärer)","US_MedicRecon.sqf"],
 	//["Sanitäter (Funker)","US_MedicRadio.sqf"],
