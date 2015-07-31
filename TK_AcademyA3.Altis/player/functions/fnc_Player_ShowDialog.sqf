@@ -4,6 +4,7 @@ _buttons = [
 	["Barracks", true, true, fnc_Player_BarracksScript],
 	["Virtual Arsenal", adminVirtualArsenal, true, fnc_Player_VirtualArsenalScript],
 	["Teleport", adminPlayerTeleport, true, fnc_Player_TeleportScript],
+	["HALO", true, true, fnc_Player_HaloScript],	
 	["Garage - Air", true, true, fnc_Player_GarageAirScript],
 	["Garage - Sea", true, true, fnc_Player_GarageSeaScript],
 	["Garage - Wheeled", true, true, fnc_Player_GarageWheeledScript],

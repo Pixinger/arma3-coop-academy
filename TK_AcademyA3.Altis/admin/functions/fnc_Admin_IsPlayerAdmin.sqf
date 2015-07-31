@@ -1,7 +1,8 @@
 private["_result"];
 _result = false;
 
-if ((getPlayerUID player) in admin_ConfigPlayerUIDs) then
+//
+if (serverCommandAvailable "#logout") then
 {
 	_result = true;
 };

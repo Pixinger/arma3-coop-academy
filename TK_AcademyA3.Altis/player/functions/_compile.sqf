@@ -1,6 +1,7 @@
 fnc_Player_ShowDialog = compile preprocessFileLineNumbers "player\functions\fnc_Player_ShowDialog.sqf";
 fnc_Player_BarracksScript = compile preprocessFileLineNumbers "player\functions\fnc_Player_BarracksScript.sqf";
 fnc_Player_TeleportScript = compile preprocessFileLineNumbers "player\functions\fnc_Player_TeleportScript.sqf";
+fnc_Player_HaloScript = compile preprocessFileLineNumbers "player\functions\fnc_Player_HaloScript.sqf";
 fnc_Player_VirtualArsenalScript = compile preprocessFileLineNumbers "player\functions\fnc_Player_VirtualArsenalScript.sqf";
 fnc_Player_GarageAirScript = compile preprocessFileLineNumbers "player\functions\fnc_Player_GarageAirScript.sqf";
 fnc_Player_GarageSeaScript = compile preprocessFileLineNumbers "player\functions\fnc_Player_GarageSeaScript.sqf";

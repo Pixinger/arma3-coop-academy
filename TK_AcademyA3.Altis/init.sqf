@@ -1,5 +1,5 @@
-//setviewdistance 1000;
-//setObjectViewDistance 1000;
+setviewdistance 2500;
+setObjectViewDistance 2500;
 //setTerrainGrid 50; 
 
 waituntil {!isnil "bis_fnc_init"};
@@ -47,6 +47,16 @@ call compile preprocessFileLineNumbers "admin\init.sqf";
 call compile preprocessFileLineNumbers "barracks\init.sqf";
 call compile preprocessFileLineNumbers "garage\init.sqf";
 call compile preprocessFileLineNumbers "player\init.sqf";
+
+//BIS Revive
+[] spawn {
+	waitUntil {!isNil "BIS_revive_initialized" && {BIS_revive_initialized}};
+	BIS_revive_reviveDelayDefault = 15; 			// time (in seconds) that it takes to revive a unit
+	BIS_revive_reviveBleedOutDelayDefault = 600; 	// time (in seconds) that it takes to bleed out
+	BIS_revive_reviveForceRespawnDelayDefault = 30; 	// Default time (in seconds) that it takes to force respawn
+	BIS_revive_medikitMultiplier = 4; 				// Multiplier acting on revive time if the player has a medikit
+	
+};
 
 /* Camera deaktivieren */
 cutText ["", "BLACK IN",1];
