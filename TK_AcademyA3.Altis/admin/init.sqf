@@ -1,5 +1,6 @@
 if (isServer) then 
 { 
+	adminBarracks = false; publicVariable "adminBarracks";
 	adminVirtualArsenal = false; publicVariable "adminVirtualArsenal";
 	adminPlayerTeleport = false; publicVariable "adminPlayerTeleport";
 }; 

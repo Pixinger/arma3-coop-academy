@@ -84,7 +84,9 @@ _result = [
 		/* Backpack-Weapons */
 		[], 
 		/* Backpack-Magazines */
-		[],
+		[
+			"Titan_AT"
+		],
 		/* Backpack-Items */
 		[			
 		]

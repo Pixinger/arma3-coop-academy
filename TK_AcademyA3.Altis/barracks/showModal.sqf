@@ -34,7 +34,8 @@ _loadouts = [
 	["Helipilot (Radio)", "HeliPilotRadio.sqf"],
 	["HALO", "Halo.sqf"],
 	["HALO (AT)", "HaloTitanAT.sqf"],
-	["Unbewaffnet (Aufklärer)", "UnarmedScout.sqf"]
+	["Aufklärer (ohne Navi)", "ScoutNoNav.sqf"],
+	["Aufklärer (unbewaffnet)", "UnarmedScout.sqf"]
 	//["Automatikschütze","US_Autorifleman.sqf"],
 	//["Sanitäter (Aufklärer)","US_MedicRecon.sqf"],
 	//["Sanitäter (Funker)","US_MedicRadio.sqf"],
@@ -65,7 +66,7 @@ waitUntil { !dialog };
 
 /*-----------------------------------------------------------------	*/
 /* Wenn OK geklickt wurde, die Eingaben verarbeiten*/
-if (pixLogisticDialogBarrack_ButtonOK == 1) then
+if ((pixLogisticDialogBarrack_ButtonOK == 1) && (adminBarracks)) then
 {		
 	private["_scriptFilename"];
 	_scriptFilename = (_loadouts select pixLogisticDialogBarrack_Selection) select 1;

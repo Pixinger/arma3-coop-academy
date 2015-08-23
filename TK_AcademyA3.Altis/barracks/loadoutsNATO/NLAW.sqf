@@ -84,6 +84,7 @@ _result = [
 		[], 
 		/* Backpack-Magazines */
 		[	
+			"NLAW_F","NLAW_F","NLAW_F"
 		],
 		/* Backpack-Items */
 		[
