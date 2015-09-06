@@ -7,6 +7,7 @@ _buttons = [
 	["Toggle Player Virtual Arsenal", true, true, fnc_Admin_ToggleVirtualArsenalScript],
 	["Toggle Player Teleport", true, true, fnc_Admin_TogglePlayerTeleportScript],
 	["Teleport", true, true, fnc_Admin_TeleportScript],
+	["Teleport target", true, true, fnc_Admin_TeleportTargetScript],
 	["Assign Curator", true, true, fnc_Admin_CuratorAssignScript],
 	["Birthday", true, true, fnc_Admin_BirthdayScript]
 ];

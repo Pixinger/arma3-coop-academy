@@ -79,7 +79,7 @@ _result = [
 	
 	/* Backpack */
 	[
-		"B_Fieldpack_oli_LAT", 
+		"B_AssaultPack_dgtl", 
 		/* Backpack-Weapons */
 		[], 
 		/* Backpack-Magazines */

@@ -7,7 +7,7 @@ _result = [
 	"",
 	
 	/* Binoculars */
-	"LaserDesignator",
+	"Rangefinder",
 	
 	/* Nightvision */
 	"NVGoggles",
@@ -19,11 +19,11 @@ _result = [
 	
 	/* Primary Weapon */
 	[
-		"arifle_Mk20_MRCO_pointer_F",
+		"",
 		/* Primary weapon Magazine */
-		"30Rnd_556x45_Stanag",
+		"",
 		/* Primary Weapon Items */
-		["muzzle_snds_M"]
+		[""]
 	],
 	
 	/* Secondary Weapon */
@@ -46,7 +46,7 @@ _result = [
 	
 	/* Uniform */
 	[
-		"U_B_GhillieSuit", 
+		"U_B_CombatUniform_mcam", 
 		/* Uniform-Weapons */
 		[], 
 		/* Uniform-Magazines */
@@ -68,7 +68,6 @@ _result = [
 		], 
 		/* Vest-Magazines */
 		[
-			"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"
 		],
 		/* Vest-Items */
 		[
@@ -85,9 +84,11 @@ _result = [
 		/* Backpack-Items */
 		[			
 			"SmokeShell","SmokeShell",
+			"SmokeShell","SmokeShell",
+			"SmokeShell","SmokeShell",
+			"SmokeShell","SmokeShell",
 			"SmokeShellRed","SmokeShellRed",
-			"SmokeShellGreen","SmokeShellGreen",
-			"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"			
+			"SmokeShellGreen","SmokeShellGreen"
 		]
 	],
 	

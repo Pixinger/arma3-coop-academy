@@ -8,5 +8,6 @@ fnc_Admin_ToggleBarracksScript = compile preprocessFileLineNumbers "admin\functi
 fnc_Admin_ToggleVirtualArsenalScript = compile preprocessFileLineNumbers "admin\functions\fnc_Admin_ToggleVirtualArsenalScript.sqf";
 fnc_Admin_TogglePlayerTeleportScript = compile preprocessFileLineNumbers "admin\functions\fnc_Admin_TogglePlayerTeleportScript.sqf";
 fnc_Admin_TeleportScript = compile preprocessFileLineNumbers "admin\functions\fnc_Admin_TeleportScript.sqf";
+fnc_Admin_TeleportTargetScript = compile preprocessFileLineNumbers "admin\functions\fnc_Admin_TeleportTargetScript.sqf";
 fnc_Admin_BirthdayScript = compile preprocessFileLineNumbers "admin\functions\fnc_Admin_BirthdayScript.sqf";
 fnc_Admin_CuratorAssignScript = compile preprocessFileLineNumbers "admin\functions\fnc_Admin_CuratorAssignScript.sqf";
