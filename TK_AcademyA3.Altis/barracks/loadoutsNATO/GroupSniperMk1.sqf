@@ -2,16 +2,16 @@ private["_result"];
 _result = [
 	/* Goggles */
 	"", //G_Tactical_Clear
-	
+
 	/* Headgear */
-	"H_MilCap_dgtl",
-	
+	"H_HelmetB_light",
+
 	/* Binoculars */
-	"LaserDesignator",
-	
+	"Rangefinder",
+
 	/* Nightvision */
 	"NVGoggles",
-	
+
 	/* Linked Items */
 	[
 		"ItemMap",
@@ -19,16 +19,16 @@ _result = [
 		"ItemCompass",
 		"ItemGps"
 	],
-	
+
 	/* Primary Weapon */
 	[
-		"srifle_DMR_03_DMS_F",
+		"srifle_DMR_03_tan_F",
 		/* Primary weapon Magazine */
 		"20Rnd_762x51_Mag",
 		/* Primary Weapon Items */
-		["bipod_03_F_blk"]
+		["bipod_01_F_blk","acc_pointer_IR","optic_DMS"]
 	],
-	
+
 	/* Secondary Weapon */
 	[
 		"",
@@ -37,21 +37,21 @@ _result = [
 		/* Secondary Weapon Items */
 		[]
 	],
-	
+
 	/* Handgun Weapon */
 	[
-		"hgun_ACPC2_F",
+		"hgun_Pistol_heavy_01_F",
 		/* Handgun Weapon Magazine */
-		"9Rnd_45ACP_Mag",
+		"11Rnd_45ACP_Mag",
 		/* Handgun Weapon Items */
-		[]
+		["optic_MRD"]
 	],
-	
+
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam", 
+		"U_B_CombatUniform_mcam_vest",
 		/* Uniform-Weapons */
-		[], 
+		[],
 		/* Uniform-Magazines */
 		[],
 		/* Uniform-Items */
@@ -59,42 +59,41 @@ _result = [
 			"ItemRadio","FirstAidKit","FirstAidKit"
 		]
 	],
-		
+
 	/* Vest */
 	[
-		"V_Chestrig_oli",
+		"V_PlateCarrier1_rgr",
 		/* Vest-Weapons */
 		[
 			"SmokeShell","SmokeShell",
 			"SmokeShellRed","SmokeShellRed",
 			"SmokeShellGreen","SmokeShellGreen"
-		], 
+		],
 		/* Vest-Magazines */
 		[
-			"20Rnd_762x51_Mag","20Rnd_762x51_Mag"
+			"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag",
+			"11Rnd_45ACP_Mag","11Rnd_45ACP_Mag"
 		],
 		/* Vest-Items */
 		[
 		]
 	],
-	
+
 	/* Backpack */
 	[
-		"B_AssaultPack_dgtl",
+		"B_AssaultPack_mcamo",
 		/* Backpack-Weapons */
-		[], 
+		[],
 		/* Backpack-Magazines */
-		[
-			"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag"
-		],
+		[],
 		/* Backpack-Items */
-		[			
+		[
 			"SmokeShell","SmokeShell",
-			"SmokeShellRed","SmokeShellRed",
-			"SmokeShellGreen","SmokeShellGreen"			
+			"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag",
+			"muzzle_snds_B","H_Booniehat_mcamo"
 		]
 	],
-	
+
 	/* Code */
 	""
 ];

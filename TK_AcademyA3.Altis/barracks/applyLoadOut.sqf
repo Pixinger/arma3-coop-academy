@@ -98,20 +98,20 @@ if (count _result > 11) then { _code = _result select 11; } else { _code = ""; }
 //private["_dir"];
 //_dir = (getdir _unit);
 //private["_pos"];
-//_pos = (getpos _unit);			
+//_pos = (getpos _unit);
 //private["_newunit"];
-//_newunit = (group _unit) createUnit [_unitClassname, getPos _unit, [], 0, "None"];	
+//_newunit = (group _unit) createUnit [_unitClassname, getPos _unit, [], 0, "None"];
 //Sleep 1;
 //_newunit setUnitRank _rank;
 //addSwitchableUnit _newunit;
 //selectPlayer _newunit;
-//[_unit] join grpNull;	
+//[_unit] join grpNull;
 //deletevehicle _unit;
 //_unit = _newunit;
 //_unit setpos _pos;
 //_unit setdir _dir;
 //_unit setUnitRank _rank;
-//if (rankId _unit == 6) then 
+//if (rankId _unit == 6) then
 //{
 //	(group _unit) selectLeader _unit;
 //};
@@ -123,7 +123,7 @@ if (count _result > 11) then { _code = _result select 11; } else { _code = ""; }
 removeAllAssignedItems _unit;
 removeAllPrimaryWeaponItems _unit;
 removeAllHandgunItems _unit;
-removeAllWeapons _unit; 
+removeAllWeapons _unit;
 removeBackpack _unit;
 removeHeadgear _unit;
 removeVest _unit;
@@ -133,29 +133,42 @@ removeGoggles _unit;
 /* Erstmal Klamotten anziehen, damit Platz zum befüllen ist */
 if (_uniformClassname != "") then {	_unit addUniform _uniformClassname;};
 if (_vestClassname != "") then { _unit addVest _vestClassname;};
+
+/*Nun den Werfer hinzufügen da die Munition sonst verlorgen geht. Incl. Dummy Rucksack der wieder gelöscht wird.*/
+if (_secondaryWeaponClassname != "") then
+{
+	if (_secondaryWeaponMagazine != "") then { _unit addBackpack "B_AssaultPack_rgr"; _unit addItemToBackpack _secondaryWeaponMagazine; };
+	_unit addWeapon _secondaryWeaponClassname;
+	{_unit addSecondaryWeaponItem _x;} foreach _secondaryWeaponItems;
+	removeBackpack _unit;
+
+};
+
+/* Nun den echten Rucksack/Fallschrim */
 if (_backpackClassname != "") then { _unit addBackpack _backpackClassname;};
 
+
 /* Munition hinzufügen, sonst ist diese nacher nicht verfügbar */
-if (_uniformClassname != "") then 
+if (_uniformClassname != "") then
 {
 	{ _unit addItemToUniform _x; } foreach _uniformWeapons;
 	{ _unit addItemToUniform _x; } foreach _uniformMagazines;
 	{ _unit addItemToUniform _x; } foreach _uniformItems;
 };
-if (_vestClassname != "") then 
+if (_vestClassname != "") then
 {
 	{ _unit addItemToVest _x; } foreach _vestWeapons;
 	{ _unit addItemToVest _x; } foreach _vestMagazines;
 	{ _unit addItemToVest _x; } foreach _vestItems;
 };
-if (_backpackClassname != "") then 
+if (_backpackClassname != "") then
 {
 	{ _unit addItemToBackpack _x; } foreach _backpackWeapons;
-	{ _unit addItemToBackpack _x; } foreach _backpackMagazines;	
+	{ _unit addItemToBackpack _x; } foreach _backpackMagazines;
 	{ _unit addItemToBackpack _x; } foreach _backpackItems;
 };
 
-/* Dann die Waffen hinzufügen, damit diese die Magazine gleich aufnehmen können 
+/* Dann die Waffen hinzufügen, damit diese die Magazine gleich aufnehmen können
    das Inventar sollte danach wieder leer sein. */
 if (_primaryWeaponClassname != "") then
 {
@@ -163,12 +176,7 @@ if (_primaryWeaponClassname != "") then
 	_unit addWeapon _primaryWeaponClassname;
 	{_unit addPrimaryWeaponItem _x;} foreach _primaryWeaponItems;
 };
-if (_secondaryWeaponClassname != "") then
-{
-	if (_secondaryWeaponMagazine != "") then { _unit addMagazine _secondaryWeaponMagazine; };
-	_unit addWeapon _secondaryWeaponClassname;
-	{_unit addSecondaryWeaponItem _x;} foreach _secondaryWeaponItems;
-};
+
 if (_handgunClassname != "") then
 {
 	if (_handgunMagazine != "") then {_unit addMagazine  _handgunMagazine; };
@@ -177,23 +185,23 @@ if (_handgunClassname != "") then
 };
 
 /* Ausrüstung hinzufügen */
-{ 
-	_unit linkItem _x; 
+{
+	_unit linkItem _x;
 } foreach _linkedItems;
-if (_goggleClassname != "") then 
+if (_goggleClassname != "") then
 {
 	_unit addGoggles _goggleClassname;
 };
-if (_headgearClassname != "") then 
+if (_headgearClassname != "") then
 {
 	_unit addHeadgear _headgearClassname;
 };
-if (_binocularClassname != "") then 
+if (_binocularClassname != "") then
 {
 	if (_binocularClassname == "Laserdesignator") then { _unit addMagazine "Laserbatteries"; }; /*Rangefinder*/
 	_unit addWeapon _binocularClassname;
 };
-if (_nightVisionClassname != "") then 
+if (_nightVisionClassname != "") then
 {
 	_unit linkItem _nightVisionClassname;
 };

@@ -1,57 +1,57 @@
 private["_result"];
 _result = [
 	/* Goggles */
-	"G_Lowprofile",
-	
+	"",
+
 	/* Headgear */
 	"H_CrewHelmetHeli_B",
-	
+
 	/* Binoculars */
 	"Rangefinder",
-	
+
 	/* Nightvision */
 	"NVGoggles",
-	
+
 	/* Linked Items */
 	[
 		"ItemMap",
 		"ItemWatch",
 		"ItemCompass",
 		"ItemGps"
-	],	
-	
+	],
+
 	/* Primary Weapon */
 	[
-		"arifle_Mk20_GL_F",
+		"SMG_01_F",
 		/* Primary weapon Magazine */
-		"30Rnd_556x45_Stanag",
+		"30Rnd_45ACP_Mag_SMG_01_Tracer_Red",
 		/* Primary Weapon Items */
-		["muzzle_snds_M","acc_pointer_IR","optic_Hamr"]
+		["optic_Aco_smg"]
 	],
-	
+
 	/* Secondary Weapon */
 	[
-		"launch_B_Titan_short_F",
+		"",
 		/* Secondary weapon Magazine */
-		"Titan_AT",
+		"",
 		/* Secondary Weapon Items */
 		[]
 	],
-	
+
 	/* Handgun Weapon */
 	[
-		"hgun_P07_F",
+		"",
 		/* Handgun Weapon Magazine */
-		"16Rnd_9x21_Mag",
+		"",
 		/* Handgun Weapon Items */
 		[]
 	],
-	
+
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam", 
+		"U_B_HeliPilotCoveralls",
 		/* Uniform-Weapons */
-		[], 
+		[],
 		/* Uniform-Magazines */
 		[],
 		/* Uniform-Items */
@@ -59,39 +59,38 @@ _result = [
 			"ItemRadio","FirstAidKit","FirstAidKit"
 		]
 	],
-		
+
 	/* Vest */
 	[
-		"V_TacVest_oli",
+		"V_TacVest_blk",
 		/* Vest-Weapons */
 		[
-			"SmokeShell","SmokeShell","SmokeShell",
-			"SmokeShellGreen","SmokeShellGreen"
-		], 
+			"SmokeShell","SmokeShell",
+			"SmokeShellGreen","SmokeShellRed"
+		],
 		/* Vest-Magazines */
 		[
-			"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag",
-			"1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell"
+			"30Rnd_45ACP_Mag_SMG_01_Tracer_Red","30Rnd_45ACP_Mag_SMG_01_Tracer_Red","30Rnd_45ACP_Mag_SMG_01_Tracer_Red"
+			,"30Rnd_45ACP_Mag_SMG_01_Tracer_Red","30Rnd_45ACP_Mag_SMG_01_Tracer_Red"
 		],
 		/* Vest-Items */
 		[
 		]
 	],
-	
+
 	/* Backpack */
 	[
-		"B_Parachute",
+		"tf_rt1523g_black",
 		/* Backpack-Weapons */
-		[], 
+		[],
 		/* Backpack-Magazines */
 		[
-			"Titan_AT"
 		],
 		/* Backpack-Items */
-		[			
+		[
 		]
 	],
-	
+
 	/* Code */
 	""
 ];

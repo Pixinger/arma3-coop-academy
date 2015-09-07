@@ -2,16 +2,16 @@ private["_result"];
 _result = [
 	/* Goggles */
 	"",
-	
+
 	/* Headgear */
 	"H_PilotHelmetHeli_B",
-	
+
 	/* Binoculars */
 	"",
-	
+
 	/* Nightvision */
 	"NVGoggles",
-	
+
 	/* Linked Items */
 	[
 		"ItemMap",
@@ -19,16 +19,16 @@ _result = [
 		"ItemCompass",
 		"ItemGps"
 	],
-	
+
 	/* Primary Weapon */
 	[
-		"hgun_PDW2000_Holo_F",
+		"SMG_01_F",
 		/* Primary weapon Magazine */
-		"30Rnd_9x21_Mag",
+		"30Rnd_45ACP_Mag_SMG_01_Tracer_Red",
 		/* Primary Weapon Items */
-		[]
+		["optic_Aco_smg"]
 	],
-	
+
 	/* Secondary Weapon */
 	[
 		"",
@@ -37,7 +37,7 @@ _result = [
 		/* Secondary Weapon Items */
 		[]
 	],
-	
+
 	/* Handgun Weapon */
 	[
 		"",
@@ -46,12 +46,12 @@ _result = [
 		/* Handgun Weapon Items */
 		[]
 	],
-	
+
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam", 
+		"U_B_HeliPilotCoveralls",
 		/* Uniform-Weapons */
-		[], 
+		[],
 		/* Uniform-Magazines */
 		[],
 		/* Uniform-Items */
@@ -59,34 +59,38 @@ _result = [
 			"ItemRadio","FirstAidKit","FirstAidKit"
 		]
 	],
-	
+
 	/* Vest */
-	[	
-		"V_TacVest_oli", 
+	[
+		"V_TacVest_blk",
 		/* Vest-Weapons */
-		[], 
+		[
+			"SmokeShell","SmokeShell",
+			"SmokeShellGreen","SmokeShellRed"
+		],
 		/* Vest-Magazines */
-		[		
-			"30Rnd_9x21_Mag",	"30Rnd_9x21_Mag",	"30Rnd_9x21_Mag",	"30Rnd_9x21_Mag",	"30Rnd_9x21_Mag"
+		[
+			"30Rnd_45ACP_Mag_SMG_01_Tracer_Red","30Rnd_45ACP_Mag_SMG_01_Tracer_Red","30Rnd_45ACP_Mag_SMG_01_Tracer_Red"
+			,"30Rnd_45ACP_Mag_SMG_01_Tracer_Red","30Rnd_45ACP_Mag_SMG_01_Tracer_Red"
 		],
 		/* Vest-Items */
 		[
 		]
 	],
-	
+
 	/* Backpack */
 	[
-		"B_Parachute", 
+		"B_Parachute",
 		/* Backpack-Weapons */
-		[], 
+		[],
 		/* Backpack-Magazines */
-		[	
+		[
 		],
 		/* Backpack-Items */
 		[
 		]
 	],
-	
+
 	/* Code */
 	""
 ];

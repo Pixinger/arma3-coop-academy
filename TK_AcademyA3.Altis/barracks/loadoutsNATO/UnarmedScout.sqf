@@ -2,16 +2,16 @@ private["_result"];
 _result = [
 	/* Goggles */
 	"",
-	
+
 	/* Headgear */
-	"H_Booniehat_mcamo",
-	
+	"H_Cap_usblack",
+
 	/* Binoculars */
-	"Rangefinder",
-	
+	"LaserDesignator",
+
 	/* Nightvision */
-	"NVGoggles",
-	
+	"",
+
 	/* Linked Items */
 	[
 		"ItemMap",
@@ -19,7 +19,7 @@ _result = [
 		"ItemCompass",
 		"ItemGps"
 	],
-	
+
 	/* Primary Weapon */
 	[
 		"",
@@ -28,7 +28,7 @@ _result = [
 		/* Primary Weapon Items */
 		[""]
 	],
-	
+
 	/* Secondary Weapon */
 	[
 		"",
@@ -37,7 +37,7 @@ _result = [
 		/* Secondary Weapon Items */
 		[]
 	],
-	
+
 	/* Handgun Weapon */
 	[
 		"",
@@ -46,12 +46,12 @@ _result = [
 		/* Handgun Weapon Items */
 		[]
 	],
-	
+
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam", 
+		"U_I_G_Story_Protagonist_F",
 		/* Uniform-Weapons */
-		[], 
+		[],
 		/* Uniform-Magazines */
 		[],
 		/* Uniform-Items */
@@ -59,41 +59,42 @@ _result = [
 			"ItemRadio","FirstAidKit","FirstAidKit"
 		]
 	],
-	
+
 	/* Vest */
 	[
-		"V_PlateCarrier2_rgr",
+		"V_Chestrig_blk",
 		/* Vest-Weapons */
-		[			
-		], 
+		[
+		],
 		/* Vest-Magazines */
 		[
 		],
 		/* Vest-Items */
 		[
 		]
-	],	
-	
+	],
+
 	/* Backpack */
 	[
-		"B_AssaultPack_dgtl", 
+		"B_AssaultPack_blk",
 		/* Backpack-Weapons */
 		[
-			"SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", 
+			"SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell", "SmokeShell",
 			"SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen", "SmokeShellGreen",
 			"SmokeShellYellow", "SmokeShellYellow", "SmokeShellYellow", "SmokeShellYellow", "SmokeShellYellow",
 			"SmokeShellOrange", "SmokeShellOrange", "SmokeShellOrange", "SmokeShellOrange", "SmokeShellOrange",
 			"SmokeShellBlue", "SmokeShellBlue", "SmokeShellBlue", "SmokeShellBlue", "SmokeShellBlue",
 			"SmokeShellPurple", "SmokeShellPurple", "SmokeShellPurple", "SmokeShellPurple", "SmokeShellPurple"
-		], 
+		],
 		/* Backpack-Magazines */
 		[
 		],
 		/* Backpack-Items */
-		[			
+		[
+			"NVGoggles"
 		]
 	],
-	
+
 	/* Code */
 	""
 ];

@@ -2,16 +2,16 @@ private["_result"];
 _result = [
 	/* Goggles */
 	"",
-	
+
 	/* Headgear */
 	"H_HelmetB",
-	
+
 	/* Binoculars */
-	"LaserDesignator",
-	
+	"Rangefinder",
+
 	/* Nightvision */
 	"NVGoggles",
-	
+
 	/* Linked Items */
 	[
 		"ItemMap",
@@ -19,16 +19,16 @@ _result = [
 		"ItemCompass",
 		"ItemGps"
 	],
-	
+
 	/* Primary Weapon */
 	[
-		"arifle_Mk20_GL_MRCO_pointer_F",
+		"arifle_Mk20_GL_plain_F",
 		/* Primary weapon Magazine */
-		"30Rnd_556x45_Stanag",
+		"30Rnd_556x45_Stanag_Tracer_Red",
 		/* Primary Weapon Items */
-		["muzzle_snds_M"]
+		["acc_pointer_IR","optic_MRCO"]
 	],
-	
+
 	/* Secondary Weapon */
 	[
 		"",
@@ -37,21 +37,21 @@ _result = [
 		/* Secondary Weapon Items */
 		[]
 	],
-	
+
 	/* Handgun Weapon */
 	[
-		"hgun_ACPC2_F",
+		"hgun_Pistol_heavy_01_F",
 		/* Handgun Weapon Magazine */
-		"9Rnd_45ACP_Mag",
+		"11Rnd_45ACP_Mag",
 		/* Handgun Weapon Items */
-		[]
+		["optic_MRD"]
 	],
-	
+
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam", 
+		"U_B_CombatUniform_mcam",
 		/* Uniform-Weapons */
-		[], 
+		[],
 		/* Uniform-Magazines */
 		[],
 		/* Uniform-Items */
@@ -59,41 +59,45 @@ _result = [
 			"ItemRadio","FirstAidKit","FirstAidKit"
 		]
 	],
-	
+
 	/* Vest */
 	[
 		"V_PlateCarrier2_rgr",
 		/* Vest-Weapons */
 		[
-			"SmokeShell","SmokeShell","SmokeShell",
-			"SmokeShellGreen","SmokeShellGreen","SmokeShellGreen"
-		], 
+			"SmokeShell","SmokeShell",
+			"SmokeShellGreen","SmokeShellGreen","SmokeShellRed","SmokeShellRed",
+			"MiniGrenade","MiniGrenade"
+		],
 		/* Vest-Magazines */
 		[
-			"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag",
-			"9Rnd_45ACP_Mag","9Rnd_45ACP_Mag"
+			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
+			,"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
+			,"11Rnd_45ACP_Mag","11Rnd_45ACP_Mag"
 		],
 		/* Vest-Items */
 		[
-			"optic_Nightstalker"
-		]
-	],	
-	
-	/* Backpack */
-	[
-		"tf_anprc155", 
-		/* Backpack-Weapons */
-		[
-		], 
-		/* Backpack-Magazines */
-		[
-			"1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell"			
-		],
-		/* Backpack-Items */
-		[			
+			"optic_Nightstalker","muzzle_snds_M"
 		]
 	],
-	
+
+	/* Backpack */
+	[
+		"tf_rt1523g",
+		/* Backpack-Weapons */
+		[],
+		/* Backpack-Magazines */
+		[
+			"1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell",
+			"1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell",
+			"1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell"
+		],
+		/* Backpack-Items */
+		[
+
+		]
+	],
+
 	/* Code */
 	""
 ];

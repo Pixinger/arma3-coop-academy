@@ -2,23 +2,23 @@ private["_result"];
 _result = [
 	/* Goggles */
 	"",
-	
+
 	/* Headgear */
-	"",
-	
+	"H_Cap_usblack",
+
 	/* Binoculars */
 	"",
-	
+
 	/* Nightvision */
 	"",
-	
+
 	/* Linked Items */
 	[
 		"ItemMap",
 		"ItemWatch",
 		"ItemCompass"
 	],
-	
+
 	/* Primary Weapon */
 	[
 		"", //TODO
@@ -27,7 +27,7 @@ _result = [
 		/* Primary Weapon Items */
 		[]
 	],
-	
+
 	/* Secondary Weapon */
 	[
 		"",
@@ -36,7 +36,7 @@ _result = [
 		/* Secondary Weapon Items */
 		[]
 	],
-	
+
 	/* Handgun Weapon */
 	[
 		"",
@@ -45,12 +45,12 @@ _result = [
 		/* Handgun Weapon Items */
 		[]
 	],
-	
+
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam", 
+		"U_I_G_Story_Protagonist_F",
 		/* Uniform-Weapons */
-		[], 
+		[],
 		/* Uniform-Magazines */
 		[],
 		/* Uniform-Items */
@@ -58,29 +58,29 @@ _result = [
 			"ItemRadio","FirstAidKit","FirstAidKit"
 		]
 	],
-	
+
 	/* Vest */
-	[	
-		"", 
+	[
+		"",
 		/* Vest-Weapons */
-		[], 
+		[],
 		/* Vest-Magazines */
 		[],
 		/* Vest-Items */
 		[]
 	],
-	
+
 	/* Backpack */
 	[
-		"", 
+		"",
 		/* Backpack-Weapons */
-		[], 
+		[],
 		/* Backpack-Magazines */
 		[],
 		/* Backpack-Items */
 		[]
 	],
-	
+
 	/* Code */
 	""
 ];

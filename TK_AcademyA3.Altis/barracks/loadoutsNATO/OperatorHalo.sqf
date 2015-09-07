@@ -1,17 +1,17 @@
 private["_result"];
 _result = [
 	/* Goggles */
-	"",
-	
+	"G_Lowprofile",
+
 	/* Headgear */
-	"H_PilotHelmetHeli_B",
-	
+	"H_HelmetB_light_snakeskin",
+
 	/* Binoculars */
-	"",
-	
+	"Rangefinder",
+
 	/* Nightvision */
 	"NVGoggles",
-	
+
 	/* Linked Items */
 	[
 		"ItemMap",
@@ -19,16 +19,16 @@ _result = [
 		"ItemCompass",
 		"ItemGps"
 	],
-	
+
 	/* Primary Weapon */
 	[
-		"hgun_PDW2000_Holo_F",
+		"arifle_TRG21_F",
 		/* Primary weapon Magazine */
-		"30Rnd_9x21_Mag",
+		"30Rnd_556x45_Stanag_Tracer_Red",
 		/* Primary Weapon Items */
-		[]
+		["muzzle_snds_M","acc_pointer_IR","optic_Hamr"]
 	],
-	
+
 	/* Secondary Weapon */
 	[
 		"",
@@ -37,21 +37,21 @@ _result = [
 		/* Secondary Weapon Items */
 		[]
 	],
-	
+
 	/* Handgun Weapon */
 	[
-		"",
+		"hgun_Pistol_heavy_01_F",
 		/* Handgun Weapon Magazine */
-		"",
+		"11Rnd_45ACP_Mag",
 		/* Handgun Weapon Items */
-		[]
+		["optic_MRD","muzzle_snds_acp"]
 	],
-	
+
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam", 
+		"U_B_CTRG_1",
 		/* Uniform-Weapons */
-		[], 
+		[],
 		/* Uniform-Magazines */
 		[],
 		/* Uniform-Items */
@@ -59,34 +59,39 @@ _result = [
 			"ItemRadio","FirstAidKit","FirstAidKit"
 		]
 	],
-	
+
 	/* Vest */
-	[	
-		"V_TacVest_oli", 
+	[
+		"V_PlateCarrierH_CTRG",
 		/* Vest-Weapons */
-		[], 
+		[
+			"SmokeShell","SmokeShell",
+			"SmokeShellGreen","SmokeShellRed",
+			"Handgrenade","Handgrenade"
+		],
 		/* Vest-Magazines */
-		[		
-			"30Rnd_9x21_Mag",	"30Rnd_9x21_Mag",	"30Rnd_9x21_Mag",	"30Rnd_9x21_Mag",	"30Rnd_9x21_Mag"
+		[
+			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
+			,"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
+			,"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
 		],
 		/* Vest-Items */
 		[
 		]
 	],
-	
+
 	/* Backpack */
 	[
-		"tf_anprc155", 
+		"B_Parachute",
 		/* Backpack-Weapons */
-		[], 
+		[],
 		/* Backpack-Magazines */
-		[	
-		],
+		[],
 		/* Backpack-Items */
 		[
 		]
 	],
-	
+
 	/* Code */
 	""
 ];

@@ -1,13 +1,13 @@
 private["_result"];
 _result = [
 	/* Goggles */
-	"",//G_Tactical_Clear
+	"G_Lowprofile",
 
 	/* Headgear */
-	"H_HelmetB",
+	"H_HelmetB_light_snakeskin",
 
 	/* Binoculars */
-	"Binocular",
+	"Rangefinder",
 
 	/* Nightvision */
 	"NVGoggles",
@@ -17,16 +17,16 @@ _result = [
 		"ItemMap",
 		"ItemWatch",
 		"ItemCompass",
-		"ItemGps"
+		"B_UavTerminal"
 	],
 
 	/* Primary Weapon */
 	[
-		"arifle_Mk20_MRCO_plain_F",
+		"arifle_TRG20_F",
 		/* Primary weapon Magazine */
 		"30Rnd_556x45_Stanag_Tracer_Red",
 		/* Primary Weapon Items */
-		["acc_pointer_IR"]
+		["muzzle_snds_M","acc_pointer_IR","optic_Hamr","muzzle_snds_338_black"]
 	],
 
 	/* Secondary Weapon */
@@ -40,21 +40,20 @@ _result = [
 
 	/* Handgun Weapon */
 	[
-		"hgun_P07_F",
+		"hgun_Pistol_heavy_01_F",
 		/* Handgun Weapon Magazine */
-		"16Rnd_9x21_Mag",
+		"11Rnd_45ACP_Mag",
 		/* Handgun Weapon Items */
-		[]
+		["optic_MRD","muzzle_snds_acp"]
 	],
 
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam_vest",
+		"U_B_CTRG_3",
 		/* Uniform-Weapons */
 		[],
 		/* Uniform-Magazines */
-		[
-		],
+		[],
 		/* Uniform-Items */
 		[
 			"ItemRadio","FirstAidKit","FirstAidKit"
@@ -63,19 +62,18 @@ _result = [
 
 	/* Vest */
 	[
-		"V_PlateCarrier2_rgr",
+		"V_PlateCarrierL_CTRG",
 		/* Vest-Weapons */
 		[
 			"SmokeShell","SmokeShell",
-			"SmokeShellPurple","SmokeShellPurple",
 			"SmokeShellGreen","SmokeShellRed"
 		],
 		/* Vest-Magazines */
 		[
-			"MiniGrenade","MiniGrenade",
 			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
 			,"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
-			,"16Rnd_9x21_Mag","16Rnd_9x21_Mag"
+			,"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
+			,"Handgrenade","Handgrenade"
 		],
 		/* Vest-Items */
 		[
@@ -84,17 +82,13 @@ _result = [
 
 	/* Backpack */
 	[
-		"B_Kitbag_rgr",
+		"B_UAV_01_backpack_F",
 		/* Backpack-Weapons */
-		[
-		],
+		[],
 		/* Backpack-Magazines */
-		[
-			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
-		],
+		[],
 		/* Backpack-Items */
 		[
-			"ToolKit","MineDetector","muzzle_snds_M"
 		]
 	],
 

@@ -1,13 +1,13 @@
 private["_result"];
 _result = [
 	/* Goggles */
-	"",//G_Tactical_Clear
+	"", //G_Tactical_Clear
 
 	/* Headgear */
-	"H_HelmetB",
+	"H_HelmetB_light",
 
 	/* Binoculars */
-	"Binocular",
+	"Rangefinder",
 
 	/* Nightvision */
 	"NVGoggles",
@@ -22,11 +22,11 @@ _result = [
 
 	/* Primary Weapon */
 	[
-		"arifle_Mk20_MRCO_plain_F",
+		"srifle_DMR_06_olive_F",
 		/* Primary weapon Magazine */
-		"30Rnd_556x45_Stanag_Tracer_Red",
+		"20Rnd_762x51_Mag",
 		/* Primary Weapon Items */
-		["acc_pointer_IR"]
+		["optic_DMS","bipod_02_F_blk"]
 	],
 
 	/* Secondary Weapon */
@@ -40,11 +40,11 @@ _result = [
 
 	/* Handgun Weapon */
 	[
-		"hgun_P07_F",
+		"hgun_Pistol_heavy_01_F",
 		/* Handgun Weapon Magazine */
-		"16Rnd_9x21_Mag",
+		"11Rnd_45ACP_Mag",
 		/* Handgun Weapon Items */
-		[]
+		["optic_MRD"]
 	],
 
 	/* Uniform */
@@ -53,8 +53,7 @@ _result = [
 		/* Uniform-Weapons */
 		[],
 		/* Uniform-Magazines */
-		[
-		],
+		[],
 		/* Uniform-Items */
 		[
 			"ItemRadio","FirstAidKit","FirstAidKit"
@@ -63,19 +62,17 @@ _result = [
 
 	/* Vest */
 	[
-		"V_PlateCarrier2_rgr",
+		"V_PlateCarrier1_rgr",
 		/* Vest-Weapons */
 		[
 			"SmokeShell","SmokeShell",
-			"SmokeShellPurple","SmokeShellPurple",
-			"SmokeShellGreen","SmokeShellRed"
+			"SmokeShellRed","SmokeShellRed",
+			"SmokeShellGreen","SmokeShellGreen"
 		],
 		/* Vest-Magazines */
 		[
-			"MiniGrenade","MiniGrenade",
-			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
-			,"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
-			,"16Rnd_9x21_Mag","16Rnd_9x21_Mag"
+			"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag",
+			"11Rnd_45ACP_Mag","11Rnd_45ACP_Mag"
 		],
 		/* Vest-Items */
 		[
@@ -84,17 +81,16 @@ _result = [
 
 	/* Backpack */
 	[
-		"B_Kitbag_rgr",
+		"B_AssaultPack_mcamo",
 		/* Backpack-Weapons */
-		[
-		],
+		[],
 		/* Backpack-Magazines */
-		[
-			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
-		],
+		[],
 		/* Backpack-Items */
 		[
-			"ToolKit","MineDetector","muzzle_snds_M"
+			"SmokeShell","SmokeShell",
+			"20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag","20Rnd_762x51_Mag",
+			"muzzle_snds_B","H_Booniehat_mcamo"
 		]
 	],
 

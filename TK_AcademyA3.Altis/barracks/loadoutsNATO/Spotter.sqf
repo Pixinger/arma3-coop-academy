@@ -7,7 +7,7 @@ _result = [
 	"H_Bandanna_mcamo",
 
 	/* Binoculars */
-	"Rangefinder",
+	"Laserdesignator",
 
 	/* Nightvision */
 	"",
@@ -22,11 +22,11 @@ _result = [
 
 	/* Primary Weapon */
 	[
-		"srifle_LRR_camo_F",
+		"arifle_Mk20_GL_plain_F",
 		/* Primary weapon Magazine */
-		"7Rnd_408_Mag",
+		"30Rnd_556x45_Stanag_Tracer_Red",
 		/* Primary Weapon Items */
-		["optic_LRPS"]
+		["acc_pointer_IR","optic_Arco"]
 	],
 
 	/* Secondary Weapon */
@@ -79,8 +79,13 @@ _result = [
 		[],
 		/* Backpack-Magazines */
 		[
-			"7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag"
-			,"11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag","11Rnd_45ACP_Mag"
+			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
+			,"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
+			,"1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell"
+			,"1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeRed_Grenade_shell","1Rnd_SmokeRed_Grenade_shell"
+			,"1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell","1Rnd_SmokeGreen_Grenade_shell"
+			,"7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag","7Rnd_408_Mag"
+			,"11Rnd_45ACP_Mag","11Rnd_45ACP_Mag"
 		],
 		/* Backpack-Items */
 		[

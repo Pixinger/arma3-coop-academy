@@ -4,38 +4,45 @@ _building = _this select 0;
 /*-----------------------------------------------------------------	**/
 /* Dialog erstellen*/
 #include "defines.hpp";
-createDialog "PIXLOGISTIC_DIALOG_BARRACK"; 	
+createDialog "PIXLOGISTIC_DIALOG_BARRACK";
 
 private["_loadouts"];
 _loadouts = [
-	["Freizeit", "Default.sqf"]	,
+	["Freizeit (Unbewaffnet)", "Default.sqf"]	,
 	["Soldat","Soldier.sqf"],
 	["Grenadier","Grenade.sqf"],
+	["Sanitäter (Kämpfer)","MedicCombat.sqf"],
+	["Sanitäter (Funk)","MedicRadio.sqf"],
+	["Truppführer","Teamleader.sqf"],
+	["Truppführer (Funk)","TeamleaderRadio.sqf"],
 	["Automatikschütze (Mk200)","Belt_AutoriflemanMk200.sqf"],
 	["Automatikschütze (Navid 9.3mm) DLC","Belt_AutoriflemanNavid.sqf"],
-	["Automatikschütze (SPMG .338) DLC","Belt_AutoriflemanSPMG.sqf"],
-	["Gruppenscharfschütze (Rahim)","GroupSniperRahim.sqf"],
+	["Gruppenscharfschütze","GroupSniperMk18.sqf"],
+	["Gruppenscharfschütze (MK14) DLC","GroupSniperMk14.sqf"],
 	["Gruppenscharfschütze (Mk-1) DLC","GroupSniperMk1.sqf"],
 	["NLAW (AT)","NLAW.sqf"],
 	["Titan (AT)","TitanAT.sqf"],
 	["Titan (AA)","TitanAA.sqf"],
-	["Sanitäter (Kämpfer)","MedicCombat.sqf"],
-	["Sanitäter (Funk)","MedicRadio.sqf"],
 	["Sprengstoffexperte","EngineerMine.sqf"],
 	["Reparaturexperte","EngineerRepair.sqf"],
-	["UAV","UAV.sqf"],
-	["Aufklärer","Scout.sqf"],
-	["Scharfschütze (GM6-Lynx)","SniperGM6.sqf"],
-	["Scharfschütze (MAR-10) DLC","SniperMAR10.sqf"],
-	["Gruppenführer","Teamleader.sqf"],
-	["Gruppenführer (Funk)","TeamleaderRadio.sqf"],
+	["Aufklärungsexperte","EngineerScout.sqf"],
 	["Crew","Crew.sqf"],
 	["Helipilot", "HeliPilot.sqf"],
-	["Helipilot (Radio)", "HeliPilotRadio.sqf"],
-	["HALO", "Halo.sqf"],
-	["HALO (AT)", "HaloTitanAT.sqf"],
-	["Aufklärer (ohne Navi)", "ScoutNoNav.sqf"],
-	["Aufklärer (unbewaffnet)", "UnarmedScout.sqf"]
+	["Heli Crewchief (Radio)", "HeliCrewchief.sqf"],
+	["Jetpilot", "JetPilot.sqf"],
+	["Operator HALO", "OperatorHalo.sqf"],
+	["Operator HALO (TF) ", "OperatorTfHalo.sqf"],
+	["Operator HALO (AT)", "OperatorHaloAT.sqf"],
+	["Operator UAV","OperatorUAV.sqf"],
+	["Operator Aufklärer","OperatorScout.sqf"],
+	["Operator MG (SPMG .338) DLC","OperatorSPMG.sqf"],
+	["Operator GS (MAR10 .338) DLC","OperatorMAR10.sqf"],
+	["Scharfschütze (M320 LLR)","SniperGM6.sqf"],
+	["Scharfschütze (Spotter)","Spotter.sqf"],
+	["Scharfschütze (Cyrus) DLC","SniperCyrus.sqf"],
+	["Scharfschütze (Spotter) DLC","SpotterDLC.sqf"],
+	["Aufklärer (Unbewaffnet)", "UnarmedScout.sqf"],
+	["Aufklärer (ohne Hilfsmittel)", "noGpsScout.sqf"]
 	//["Automatikschütze","US_Autorifleman.sqf"],
 	//["Sanitäter (Aufklärer)","US_MedicRecon.sqf"],
 	//["Sanitäter (Funker)","US_MedicRadio.sqf"],
@@ -67,7 +74,7 @@ waitUntil { !dialog };
 /*-----------------------------------------------------------------	*/
 /* Wenn OK geklickt wurde, die Eingaben verarbeiten*/
 if ((pixLogisticDialogBarrack_ButtonOK == 1) && (adminBarracks)) then
-{		
+{
 	private["_scriptFilename"];
 	_scriptFilename = (_loadouts select pixLogisticDialogBarrack_Selection) select 1;
 

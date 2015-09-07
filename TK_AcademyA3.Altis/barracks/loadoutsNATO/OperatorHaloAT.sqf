@@ -1,17 +1,17 @@
 private["_result"];
 _result = [
 	/* Goggles */
-	"", //G_Tactical_Clear
-	
+	"G_Lowprofile",
+
 	/* Headgear */
-	"H_MilCap_dgtl",
-	
+	"H_HelmetB_light_snakeskin",
+
 	/* Binoculars */
-	"LaserDesignator",
-	
+	"Rangefinder",
+
 	/* Nightvision */
 	"NVGoggles",
-	
+
 	/* Linked Items */
 	[
 		"ItemMap",
@@ -19,39 +19,39 @@ _result = [
 		"ItemCompass",
 		"ItemGps"
 	],
-	
+
 	/* Primary Weapon */
 	[
-		"srifle_DMR_02_SOS_F",
+		"arifle_TRG20_F",
 		/* Primary weapon Magazine */
-		"5Rnd_127x108_Mag",
+		"30Rnd_556x45_Stanag_Tracer_Red",
 		/* Primary Weapon Items */
-		[]
+		["muzzle_snds_M","acc_pointer_IR","optic_Hamr"]
 	],
-	
+
 	/* Secondary Weapon */
 	[
-		"",
+		"launch_I_Titan_short_F",
 		/* Secondary weapon Magazine */
-		"",
+		"Titan_AT",
 		/* Secondary Weapon Items */
 		[]
 	],
-	
+
 	/* Handgun Weapon */
 	[
-		"hgun_ACPC2_F",
+		"hgun_Pistol_heavy_01_F",
 		/* Handgun Weapon Magazine */
-		"9Rnd_45ACP_Mag",
+		"11Rnd_45ACP_Mag",
 		/* Handgun Weapon Items */
-		[]
+		["optic_MRD","muzzle_snds_acp"]
 	],
-	
+
 	/* Uniform */
 	[
-		"U_B_FullGhillie_lsh", 
+		"U_B_CTRG_3",
 		/* Uniform-Weapons */
-		[], 
+		[],
 		/* Uniform-Magazines */
 		[],
 		/* Uniform-Items */
@@ -59,42 +59,37 @@ _result = [
 			"ItemRadio","FirstAidKit","FirstAidKit"
 		]
 	],
-		
+
 	/* Vest */
 	[
-		"V_Chestrig_oli",
+		"V_PlateCarrierL_CTRG",
 		/* Vest-Weapons */
 		[
 			"SmokeShell","SmokeShell",
-			"SmokeShellRed","SmokeShellRed",
-			"SmokeShellGreen","SmokeShellGreen"
-		], 
+			"SmokeShellGreen","SmokeShellRed"
+		],
 		/* Vest-Magazines */
 		[
-			"5Rnd_127x108_Mag","5Rnd_127x108_Mag","5Rnd_127x108_Mag","5Rnd_127x108_Mag","5Rnd_127x108_Mag"
+			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
+			,"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
 		],
 		/* Vest-Items */
 		[
 		]
 	],
-	
+
 	/* Backpack */
 	[
-		"B_AssaultPack_dgtl",
+		"B_Parachute",
 		/* Backpack-Weapons */
-		[], 
+		[],
 		/* Backpack-Magazines */
-		[
-			"5Rnd_127x108_APDS_Mag","5Rnd_127x108_APDS_Mag","5Rnd_127x108_APDS_Mag","5Rnd_127x108_APDS_Mag","5Rnd_127x108_APDS_Mag","5Rnd_127x108_APDS_Mag"
-		],
+		[],
 		/* Backpack-Items */
-		[			
-			"SmokeShell","SmokeShell",
-			"SmokeShellRed","SmokeShellRed",
-			"SmokeShellGreen","SmokeShellGreen"			
+		[
 		]
 	],
-	
+
 	/* Code */
 	""
 ];
