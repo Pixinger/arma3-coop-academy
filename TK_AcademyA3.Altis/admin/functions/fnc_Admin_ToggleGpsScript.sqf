@@ -16,7 +16,7 @@ if (hasInterface) then
 			while { adminGps } do
 			{	
 				private["_units"];
-				_units = entities "Man";
+				_units = entities "CAManBase";
 				
 				if (count _units != _lastMarkerCount) then
 				{

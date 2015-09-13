@@ -32,11 +32,11 @@ forceRotorLibSimulation = 1;
 */
 respawn = BASE;
 
-reviveDelay = 15; /* The time it takes to revive an incapacitated unit (default: 6 seconds). Having a Medikit will halve this time. Must have "Revive" Respawn template enabled. */
-reviveForceRespawnDelay = 30; /* The time it takes for an incapacitated unit to force their respawn (default: 3 seconds). Must have "Revive" Respawn template enabled.  */
-reviveBleedOutDelay = 600; /* The time it takes for a unit to bleed out (default: 2 minutes). Must have "Revive" Respawn template enabled.  */
-respawnTemplates[] = {"Revive", "MenuPosition"};
-respawnOnStart = -1;
+//reviveDelay = 15; /* The time it takes to revive an incapacitated unit (default: 6 seconds). Having a Medikit will halve this time. Must have "Revive" Respawn template enabled. */
+//reviveForceRespawnDelay = 30; /* The time it takes for an incapacitated unit to force their respawn (default: 3 seconds). Must have "Revive" Respawn template enabled.  */
+//reviveBleedOutDelay = 600; /* The time it takes for a unit to bleed out (default: 2 minutes). Must have "Revive" Respawn template enabled.  */
+//respawnTemplates[] = {"Revive", "MenuPosition"};
+//respawnOnStart = -1;
 
 
 /*

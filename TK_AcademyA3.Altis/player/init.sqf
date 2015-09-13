@@ -13,6 +13,9 @@ if (hasInterface) then
 		_tmp = (findDisplay 46) displayaddEventHandler ["KeyDown", "if (!dialog ) then { if ((_this select 1 == 86) || {(_this select 1 == 220)}) then { _tmp = [] spawn fnc_Player_ShowDialog;};};"];
 
 		// NameTags aktivieren
-		call fnc_Player_NameTagsInit;
+		//call fnc_Player_NameTagsInit;
+		
+		// Loadout
+		[player, "Default.sqf"] call compile preprocessFileLineNumbers "barracks\applyLoadOut.sqf";		
 	};
 }; 
