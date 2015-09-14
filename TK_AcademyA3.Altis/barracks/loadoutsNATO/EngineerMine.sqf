@@ -99,7 +99,11 @@ _result = [
 	],
 
 	/* Code */
-	""
+	"player setVariable [""ACE_isEOD"", true, true];player setVariable [""ACE_IsEngineer"", false, true];player setVariable [""ace_medical_medicclass"",0, true];";
 ];
 
 _result;
+
+//ACE_IsEngineer
+//unit getVariable [QGVAR(medicClass)			=> 		_unit getVariable ["ace_medical_medicClass", false]
+//_vehicle getVariable [QGVAR(medicClass)		=> 		_vehicle getVariable ["ace_medical_medicClass", false]
