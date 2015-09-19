@@ -99,7 +99,7 @@ _result = [
 	],
 
 	/* Code */
-	"player setVariable [""ACE_isEOD"", true, true];player setVariable [""ACE_IsEngineer"", false, true];player setVariable [""ace_medical_medicclass"",0, true];";
+	"player setVariable [""ACE_isEOD"", true, true];player setVariable [""ACE_IsEngineer"", false, true];player setVariable [""ace_medical_medicclass"",0, true];"
 ];
 
 _result;

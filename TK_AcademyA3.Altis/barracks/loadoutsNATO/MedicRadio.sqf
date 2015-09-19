@@ -49,7 +49,7 @@ _result = [
 
 	/* Uniform */
 	[
-		"U_B_CombatUniform_mcam_tshirt",
+		"U_B_CombatUniform_mcam",
 		/* Uniform-Weapons */
 		[],
 		/* Uniform-Magazines */
@@ -94,7 +94,7 @@ _result = [
 	],
 
 	/* Code */
-	"player setVariable [""ACE_isEOD"", false, true];player setVariable [""ACE_IsEngineer"", false, true];player setVariable [""ace_medical_medicclass"",2, true];";
+	"player setVariable [""ACE_isEOD"", false, true];player setVariable [""ACE_IsEngineer"", false, true];player setVariable [""ace_medical_medicclass"",2, true];"
 ];
 
 _result;
