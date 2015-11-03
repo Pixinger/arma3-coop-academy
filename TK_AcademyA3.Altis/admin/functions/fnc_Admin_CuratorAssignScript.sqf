@@ -1,10 +1,12 @@
 if (isServer) then
 {
 	private["_target"];
-	if (isDedicated) then { _target = _this select 0; } else	{ _target = cursorTarget; };
+	if (isDedicated) then { _target = _this select 0; } else { _target = cursorTarget; };
 
 	unassignCurator DynamicCuratorModule;
 	_target assignCurator DynamicCuratorModule; 
+	
+	[format["%1 is now Zeus.", name _target], "hint", true, true] call BIS_fnc_MP;	
 }
 else
 {

@@ -56,7 +56,9 @@ class Mission
 		"ace_advanced_ballistics",
 		"ace_optionsmenu",
 		"ace_switchunits",
-		"task_force_radio_items"
+		"task_force_radio_items",
+		"ace_repair",
+		"ace_cargo"
 	};
 	addOnsAuto[]=
 	{
@@ -83,13 +85,16 @@ class Mission
 		"ace_advanced_ballistics",
 		"A3_Characters_F_BLUFOR",
 		"a3_characters_f",
+		"ace_repair",
+		"ace_cargo",
+		"A3_Characters_F_OPFOR",
 		"a3_map_altis"
 	};
 	randomSeed=14739900;
 	class Intel
 	{
-		briefingName="[TK]Academy A3 V2.05 (ACE3)";
-		overviewText="www.teamkommando.de";
+		briefingName="[TK]Academy A3 V2.10 (ACE3)";
+		overviewText="www.teamkommando.net";
 		timeOfChanges=28800;
 		startWeather=0;
 		startWind=0;
@@ -110,7 +115,7 @@ class Mission
 	};
 	class Groups
 	{
-		items=71;
+		items=74;
 		class Item0
 		{
 			side="LOGIC";
@@ -875,7 +880,7 @@ class Mission
 					position[]={11649.542,23.548239,11897.508};
 					class args
 					{
-						items=4;
+						items=5;
 						class Item0
 						{
 							value="1";
@@ -884,17 +889,23 @@ class Mission
 						};
 						class Item1
 						{
-							value="0";
+							value="1";
 							parentCls="ACE_ModuleMap";
-							typeName="MapShake";
+							typeName="MapGlow";
 						};
 						class Item2
 						{
 							value="0";
 							parentCls="ACE_ModuleMap";
-							typeName="MapLimitZoom";
+							typeName="MapShake";
 						};
 						class Item3
+						{
+							value="0";
+							parentCls="ACE_ModuleMap";
+							typeName="MapLimitZoom";
+						};
+						class Item4
 						{
 							value="1";
 							parentCls="ACE_ModuleMap";
@@ -1172,7 +1183,7 @@ class Mission
 						items=3;
 						class Item0
 						{
-							value="1";
+							value="0";
 							parentCls="ACE_ModuleBlueForceTracking";
 							typeName="Enabled";
 						};
@@ -1184,7 +1195,7 @@ class Mission
 						};
 						class Item2
 						{
-							value="0";
+							value="1";
 							parentCls="ACE_ModuleBlueForceTracking";
 							typeName="HideAiGroups";
 						};
@@ -2374,6 +2385,129 @@ class Mission
 					lock="UNLOCKED";
 					skill=0.60000002;
 					text="StaticCuratorModule";
+				};
+			};
+		};
+		class Item71
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={11574.477,23.167364,11888.851};
+					class args
+					{
+						items=9;
+						class Item0
+						{
+							value="0";
+							parentCls="ACE_moduleRepairSettings";
+							typeName="engineerSetting_Repair";
+						};
+						class Item1
+						{
+							value="0";
+							parentCls="ACE_moduleRepairSettings";
+							typeName="engineerSetting_Wheel";
+						};
+						class Item2
+						{
+							value="0.6";
+							parentCls="ACE_moduleRepairSettings";
+							typeName="repairDamageThreshold";
+						};
+						class Item3
+						{
+							value="0.4";
+							parentCls="ACE_moduleRepairSettings";
+							typeName="repairDamageThreshold_Engineer";
+						};
+						class Item4
+						{
+							value="0";
+							parentCls="ACE_moduleRepairSettings";
+							typeName="consumeItem_ToolKit";
+						};
+						class Item5
+						{
+							value="0";
+							parentCls="ACE_moduleRepairSettings";
+							typeName="fullRepairLocation";
+						};
+						class Item6
+						{
+							value="0";
+							parentCls="ACE_moduleRepairSettings";
+							typeName="engineerSetting_fullRepair";
+						};
+						class Item7
+						{
+							value="1";
+							parentCls="ACE_moduleRepairSettings";
+							typeName="addSpareParts";
+						};
+						class Item8
+						{
+							value="0";
+							parentCls="ACE_moduleRepairSettings";
+							typeName="wheelRepairRequiredItems";
+						};
+					};
+					id=71;
+					side="LOGIC";
+					vehicle="ACE_moduleRepairSettings";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item72
+		{
+			side="LOGIC";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={11567.002,23.166273,11888.851};
+					class args
+					{
+						items=1;
+						class Item0
+						{
+							value="1";
+							parentCls="ACE_moduleCargoSettings";
+							typeName="enable";
+						};
+					};
+					id=72;
+					side="LOGIC";
+					vehicle="ACE_moduleCargoSettings";
+					leader=1;
+					lock="UNLOCKED";
+					skill=0.60000002;
+				};
+			};
+		};
+		class Item73
+		{
+			side="EAST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={2812.231,5.7259398,9415.5117};
+					id=73;
+					side="EAST";
+					vehicle="O_Soldier_F";
+					leader=1;
+					skill=0.2;
+					ammo=0;
+					init="this setBehaviour ""CARELESS"";";
 				};
 			};
 		};

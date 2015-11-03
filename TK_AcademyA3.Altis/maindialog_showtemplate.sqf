@@ -65,6 +65,6 @@ if (count _buttons > 0) then
 	
 	if (maindialog_action > -1) then
 	{
-		call (_scripts select maindialog_action);
+		[] call (_scripts select maindialog_action);
 	};	
 };
