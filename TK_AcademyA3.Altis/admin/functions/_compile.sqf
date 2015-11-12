@@ -12,3 +12,4 @@ fnc_Admin_TeleportTargetScript = compile preprocessFileLineNumbers "admin\functi
 fnc_Admin_BirthdayScript = compile preprocessFileLineNumbers "admin\functions\fnc_Admin_BirthdayScript.sqf";
 fnc_Admin_CuratorAssignScript = compile preprocessFileLineNumbers "admin\functions\fnc_Admin_CuratorAssignScript.sqf";
 fnc_Admin_TogglePlayerSideScript = compile preprocessFileLineNumbers "admin\functions\fnc_Admin_TogglePlayerSideScript.sqf";
+fnc_Admin_RegroupScript = compile preprocessFileLineNumbers "admin\functions\fnc_Admin_RegroupScript.sqf";

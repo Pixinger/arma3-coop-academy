@@ -10,7 +10,7 @@ _buttons = [
 	["Teleport", true, true, fnc_Admin_TeleportScript],
 	["Teleport target", true, true, fnc_Admin_TeleportTargetScript],
 	["Assign Curator", true, true, fnc_Admin_CuratorAssignScript],
-	["Birthday", true, true, fnc_Admin_BirthdayScript]
+	["Regroup", true, true, fnc_Admin_RegroupScript]
 ];
 
 [_buttons, "Administrator"] execVM "maindialog_showtemplate.sqf";
