@@ -34,7 +34,6 @@ class Mission
 		"A3_Air_F_EPB_Heli_Light_03",
 		"A3_Structures_F_Mil_BagFence",
 		"A3_Characters_F_BLUFOR",
-		"3DEN",
 		"ace_common",
 		"ace_medical",
 		"ace_respawn",
@@ -64,8 +63,7 @@ class Mission
 	{
 		"A3_Modules_F",
 		"task_force_radio_items",
-		"3DEN",
-		"a3_modules_f_curator_curator",
+		"A3_Modules_F_Curator_Curator",
 		"ace_medical",
 		"ace_common",
 		"ace_respawn",
@@ -92,7 +90,7 @@ class Mission
 	randomSeed=14739900;
 	class Intel
 	{
-		briefingName="[TK]Academy A3 V2.16 (ACE3)";
+		briefingName="[TK]Academy A3 V2.17 (ACE3)";
 		overviewText="www.teamkommando.net";
 		timeOfChanges=28800;
 		startWeather=0;

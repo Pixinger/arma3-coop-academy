@@ -19,7 +19,7 @@ Sleep 1;
 		_x setVelocity [0,0,0];
 		_x setPosATL [_xPos + _cnt, _yPos, 0];
 		_x setDir 180;	
-		_cnt = _cnt + .75;
+		_cnt = _cnt + .90;
 	};
 } forEach _units;
 
