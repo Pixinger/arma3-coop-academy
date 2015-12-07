@@ -24,7 +24,7 @@ _result = [
 	[
 		"arifle_Mk20_GL_plain_F",
 		/* Primary weapon Magazine */
-		"30Rnd_556x45_Stanag_Tracer_Red",
+		"30Rnd_556x45_Stanag",
 		/* Primary Weapon Items */
 		["acc_pointer_IR","optic_MRCO"]
 	],
@@ -56,7 +56,7 @@ _result = [
 		[],
 		/* Uniform-Items */
 		[
-			"ItemRadio","FirstAidKit","FirstAidKit"
+			"ItemRadio","FirstAidKit","FirstAidKit","FirstAidKit","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_CableTie"
 		]
 	],
 
@@ -71,8 +71,8 @@ _result = [
 		],
 		/* Vest-Magazines */
 		[
-			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red",
-			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red",
+			"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag",
+			"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag",
 			"16Rnd_9x21_Mag","16Rnd_9x21_Mag"
 		],
 		/* Vest-Items */
@@ -85,7 +85,7 @@ _result = [
 		"B_AssaultPack_rgr",
 		/* Backpack-Weapons */
 		[
-			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
+			"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"
 		],
 		/* Backpack-Magazines */
 		[

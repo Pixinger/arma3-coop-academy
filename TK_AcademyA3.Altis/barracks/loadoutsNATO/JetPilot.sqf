@@ -58,7 +58,7 @@ _result = [
 		[],
 		/* Uniform-Items */
 		[
-			"ItemRadio","FirstAidKit","FirstAidKit"
+			"ItemRadio","FirstAidKit","FirstAidKit","FirstAidKit","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_CableTie"
 		]
 	],
 

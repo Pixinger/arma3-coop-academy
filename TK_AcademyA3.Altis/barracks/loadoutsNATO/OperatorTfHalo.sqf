@@ -24,7 +24,7 @@ _result = [
 	[
 		"arifle_TRG21_GL_F",
 		/* Primary weapon Magazine */
-		"30Rnd_556x45_Stanag_Tracer_Red",
+		"30Rnd_556x45_Stanag",
 		/* Primary Weapon Items */
 		["muzzle_snds_M","acc_pointer_IR","optic_Hamr"]
 	],
@@ -56,7 +56,7 @@ _result = [
 		[],
 		/* Uniform-Items */
 		[
-			"ItemRadio","FirstAidKit","FirstAidKit","optic_Nightstalker"
+			"ItemRadio","FirstAidKit","FirstAidKit","FirstAidKit","ACE_EarPlugs","ACE_CableTie","ACE_CableTie","ACE_CableTie","optic_Nightstalker"
 		]
 	],
 
@@ -71,8 +71,8 @@ _result = [
 		],
 		/* Vest-Magazines */
 		[
-			"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
-			,"30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red","30Rnd_556x45_Stanag_Tracer_Red"
+			"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"
+			,"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag"
 			,"1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell"
 			,"1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell","1Rnd_HE_Grenade_shell"
 		],
