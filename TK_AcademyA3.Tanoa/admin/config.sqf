@@ -1,0 +1,1 @@
+admin_ConfigPlayerUIDs = ["_SP_PLAYER_"];

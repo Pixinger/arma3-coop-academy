@@ -1,0 +1,1 @@
+mklink /D "C:\Users\SST\Documents\Arma 3 - Other Profiles\[TK]Pix\missions\TK_AcademyA3.Tanoa" "D:\_git_src\arma3-coop-academy\TK_AcademyA3.Tanoa"
